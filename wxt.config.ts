@@ -6,4 +6,11 @@ export default defineConfig({
   webExt: {
     disabled: true,
   },
+  manifest: {
+    name: "Block Ads",
+    description: "Block Ads",
+    version: "0.0.1",
+    host_permissions: ["https://1337x.to/"],
+    permissions: ["tabs"],
+  },
 });
